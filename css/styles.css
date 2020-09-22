@@ -1,0 +1,32 @@
+header {
+  font-family: 'Poppins', sans-serif; }
+  header nav .navbar-brand {
+    font-weight: 400;
+    font-size: 22px; }
+    header nav .navbar-brand span {
+      color: #20639B;
+      font-weight: 700; }
+  header nav .navbar-nav {
+    font-size: 20px; }
+    header nav .navbar-nav .active {
+      position: relative; }
+      header nav .navbar-nav .active::after {
+        display: block;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        content: '';
+        width: 0;
+        height: 2px;
+        margin: 0 auto;
+        background-color: #20639B;
+        -webkit-transition: all 0.15s ease-in-out;
+        -moz-transition: all 0.15s ease-in-out;
+        -o-transition: all 0.15s ease-in-out;
+        -ms-transition: all 0.15s ease-in-out;
+        transition: all 0.15s ease-in-out;
+        opacity: 1;
+        width: 25px; }
+
+/*# sourceMappingURL=styles.css.map */
